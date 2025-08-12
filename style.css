@@ -1,1 +1,12 @@
-body{background-color:darkblue; font-family: "Bai Jamjuree", sans-serif;}
+body {
+    background-color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+footer{
+background-color: black;
+color:white;
+position: fixed;
+width: 100%;
+height:2rem;
+}
