@@ -50,7 +50,7 @@ body {
     font-weight: 500;
 }
 
-.cartao_conteudo_pergunta p {
+.cartao_conteudo_resposta p {
     color: var(--card-back-color);
     font-weight: 700;
 }
