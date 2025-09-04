@@ -4,20 +4,28 @@
     --card-back-color: #00f4bf;
 }
 
-body {
-    background-color: bisque;
-    font-family: "Bai Jamjuree", sans-serif;
+body{
+background-color: bisque;
+font-family: "Bai Jamjuree", sans-serif;
 }
 
-#container {
-    display: flex;
+#container{
+display: flex;
 }
 
-.cartao {
-    margin: 1rem 1rem;
-    height: 20rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
+.cartao{
+margin: 1rem 1rem;
+height: 20rem;
+flex-grow: 1;
+flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo{
+background-color: var(--card-front-color);
+text-align: center;
+height: 100%;
+transform-style: preserve-3d;
+transition: ;
 }
 
 .cartao_conteudo {
@@ -53,6 +61,18 @@ body {
 .cartao_conteudo_resposta p {
     color: var(--card-back-color);
     font-weight: 700;
+}
+
+.cartao:hover .cartao__conteudo{
+    transform: rotateY(180deg);
+}
+
+.cartao_conteudo_pergunta,
+.cartao_conteudo_resposta{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
