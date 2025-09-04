@@ -24,6 +24,8 @@ body {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao_conteudo h3 {
@@ -40,6 +42,7 @@ body {
 .cartao_conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+    margin-top
 }
 
 .cartao_conteudo_pergunta p {
