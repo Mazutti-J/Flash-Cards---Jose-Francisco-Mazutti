@@ -24,7 +24,7 @@ body{
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo{
+.cartao_conteudo{
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
@@ -32,7 +32,7 @@ body{
     transition: ;
 }
 
-.cartao__conteudo h3{
+.cartao_conteudo h3{
     color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
@@ -43,29 +43,29 @@ body{
     font-size: 1vw;
 }
 
-.cartao__conteudo p{
+.cartao_conteudo p{
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
 }
 
-.cartao__conteudo__pergunta p{
+.cartao_conteudo_pergunta p{
     color: var(--text-color);
     font-weight: 500;
 }
 
-.cartao__conteudo__resposta p{
+.cartao_conteudo_resposta p{
     color: var(--card-back-color);
     font-weight: 700;
 }
 
 
-.cartao:hover .cartao__conteudo{
+.cartao:hover .cartao_conteudo{
     transform: rotateY(180deg);
 }
 
-.cartao__conteudo__pergunta,
-.cartao__conteudo__resposta{
+.cartao_conteudo_pergunta,
+.cartao_conteudo_resposta{
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
@@ -73,7 +73,7 @@ body{
 
 }
 
-.cartao__conteudo__resposta{
+.cartao_conteudo_resposta{
     transform: rotateY(180deg);
 }
 
