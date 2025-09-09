@@ -1,7 +1,7 @@
 :root{
     --text-color: #dbe4ef;
-    --card-front-color: #144480;
-    --card-back-color: #00f4bf;
+    --card-front-color: #802414;
+    --card-back-color: #f44500;
 }
 
 body{
@@ -29,7 +29,7 @@ body{
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
-    transition: ;
+    transition: transition 300ms ease-in-out;
 }
 
 .cartao_conteudo h3{
