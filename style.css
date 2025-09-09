@@ -1,7 +1,7 @@
 :root{
 --text-color: #dbe4ef;
 --card-front-color: #144480;
---card-back-color: #00f4bf
+--card-back-color: #00f4bf;
 }
 
 body{
@@ -24,7 +24,7 @@ flex-grow: 1;
 flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo{
+.cartao_conteudo{
 background-color: var(--card-front-color);
 text-align: center;
 height: 100%;
@@ -32,7 +32,7 @@ transform-style: preserve-3d;
 transition: ;
 }
 
-.cartao__conteudo h3{
+.cartao_conteudo h3{
 color: var(--text-color);
 border: 1px solid var(--text-color);
 text-align: left;
@@ -43,22 +43,22 @@ border-radius: 0.6rem;
 font-size: 1vw;
 }
 
-.cartao__conteudo p{
+.cartao_conteudo p{
 margin-top: 1rem;
 padding: 2rem;
 }
 
-.cartao__conteudo__pergunta p{
+.cartao_conteudo_pergunta p{
 color: var(--text-color);
 font-weight: 500;
 }
 
-.cartao__conteudo__resposta p{
+.cartao_conteudo_resposta p{
 color: var(--card-back-color);
 font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo{
+.cartao:hover .cartao_conteudo{
     transform: rotateY(180deg);
 }
 
