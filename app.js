@@ -1,4 +1,4 @@
-function criaCartao(categoria, pergunta, resposta) {
+function criaCartao(categoria, pergunta, resposta, imagemR) {
     let container = document.getElementById('container');
     let cartao = document.createElement('article');
     cartao.className = 'cartao';
@@ -11,8 +11,7 @@ function criaCartao(categoria, pergunta, resposta) {
     </div>
     <div class="cartao_conteudo_resposta">
     <p>${resposta}</p>
-    <img width="150" height="150" src="https://i.redd.it/8yz0onqhtfld1.gif" alt="Descrição do GIF">
-    </div>
+    <img style="max-width: 200px; max-height: 100px; position:relative;" src="${imagemR}" alt="imagem">    </div>
     </div>`
 
     container.appendChild(cartao);
