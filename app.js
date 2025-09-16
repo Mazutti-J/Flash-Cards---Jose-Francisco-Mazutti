@@ -11,16 +11,14 @@ function criaCartao(categoria, pergunta, resposta) {
     </div>
     <div class="cartao_conteudo_resposta">
     <p>${resposta}</p>
-    <img style="max-width: 200px; max-height: 100px; position:relative;" src="" alt="imagem">    </div>
+    <img style="max-width: 200px; max-height: 100px; position:relative;" src="${imagem}" alt="imagem">    </div>
     </div>`
 
-
-    let respostaEstaVizivel = false;
-
-
-    container.appendChild(cartao);
 
     function viraCartao(){
         respostaEstaVizivel =! respostaEstaVizivel;
     }
+
+    container.appendChild(cartao);
+
 }
