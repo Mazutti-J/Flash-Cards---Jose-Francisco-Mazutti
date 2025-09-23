@@ -11,7 +11,7 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
     </div>
     <div class="cartao_conteudo_resposta">
     <p>${resposta}</p>
-    <img width="100" height="50" style="display: flex" src="${imagemP}" alt="">
+    <img width="500" height="100" style="display: flex" src="${imagemP}" alt="">
     </div>
     </div>`
 
