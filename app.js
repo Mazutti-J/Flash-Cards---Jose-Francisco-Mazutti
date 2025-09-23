@@ -18,6 +18,7 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
 
     function viraCartao(){
         respostaEstaVizivel =! respostaEstaVizivel;
+        cartao.classList.toggle('active', respostaEstaVizivel);
     }
 
     // <img src="${imagemP}" alt="Descrição da imagem" id="imagem_${Math.random()}"></img>
@@ -31,5 +32,6 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
     //     console.error('Erro ao carregar a imagem.');
     // };
 
+    cartao.addEventListener('click', viraCartao);
     container.appendChild(cartao);
 }
