@@ -3,21 +3,21 @@ criaCartao(
     'Hitória', 
     'Quem foi o primeiro presidente do Brasil?', 
     'O primeiro presidente do Brasil foi o Marechal Deodoro da Fonseca, que assumiu o cargo em 15 de novembro de 1889, após a Proclamação da República. Eleito por voto indireto em 25 de fevereiro de 1891, tornando-se o primeiro presidente eleito do país.',
-    'https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339'
+    '"https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339"'
 )
 //2
 criaCartao(
     'Geografia', 
     'Qual é o país mais populoso do mundo?', 
     'O país mais populoso do mundo é a Índia.',
-    'https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339'
+    '"https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339"'
 )
 //3
 criaCartao(
     'Física', 
     'Quem é conhecido como o "Pai da Física"?', 
     'O título de "pai da física" é frequentemente atribuído a Isaac Newton.',
-    'https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339'
+    '"https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339"'
 )
 //4
 criaCartao(
