@@ -11,7 +11,7 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
     </div>
     <div class="cartao_conteudo_resposta">
     <p>${resposta}</p>
-    <img width="200" height="100" style="position:relative; vertical-align:middle" src="${imagemP}" alt="">
+    <img width="200" height="100" style="position:relative" src="${imagemP}" alt="">
     </div>
     </div>`
 
@@ -20,17 +20,6 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
         respostaEstaVizivel =! respostaEstaVizivel;
         cartao.classList.toggle('active', respostaEstaVizivel);
     }
-
-    // <img src="${imagemP}" alt="Descrição da imagem" id="imagem_${Math.random()}"></img>
-    // // A imagem vai carregar corretamente?
-    // let imagem = cartao.querySelector('img');
-    // imagem.onload = () => {
-    //     console.log('Imagem carregada com sucesso!');
-    // };
-    
-    // imagem.onerror = () => {
-    //     console.error('Erro ao carregar a imagem.');
-    // };
 
     cartao.addEventListener('click', viraCartao);
     container.appendChild(cartao);
