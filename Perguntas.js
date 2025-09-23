@@ -3,7 +3,7 @@ criaCartao(
     'Hitória', 
     'Quem foi o primeiro presidente do Brasil?', 
     'O primeiro presidente do Brasil foi o Marechal Deodoro da Fonseca, que assumiu o cargo em 15 de novembro de 1889, após a Proclamação da República. Eleito por voto indireto em 25 de fevereiro de 1891, tornando-se o primeiro presidente eleito do país.',
-    'https://static.wikia.nocookie.net/surrealmemes/images/a/a0/Moyai.png/revision/latest/smart/width/250/height/250?cb=20181217162339'
+    'https://stickerly.pstatic.net/sticker_pack/09DNgq69XoEvmn1BXeeFuA/3K6KMT/32/2d5dab7f-1bdd-4597-8eaa-666c5733fdfb.png'
 )
 //2
 criaCartao(
