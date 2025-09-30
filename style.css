@@ -54,6 +54,13 @@ body {
 }
 
 .cartao_conteudo_pergunta p {
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1vw;
+}
+
+.cartao_conteudo_pergunta p {
     color: var(--text-color);
     font-weight: 500;
 }
