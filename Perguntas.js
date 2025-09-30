@@ -30,7 +30,7 @@ criaCartao(
 criaCartao(
     'Filosofia', 
     'De quem é a frase "Só sei que nada sei"?', 
-    'A famosa frase "Só sei que nada sei" é atribuída ao filósofo grego Sócrates.'.at,
+    'A famosa frase "Só sei que nada sei" é atribuída ao filósofo grego Sócrates.',
     'https://static.todamateria.com.br/upload/80/0p/800pxdavidthedeathofsocrates-0-cke.jpg'
 )
 //6
