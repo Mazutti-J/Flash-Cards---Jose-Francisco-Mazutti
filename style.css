@@ -1,17 +1,17 @@
-:root{
+:root {
     --text-color: #dbe4ef;
-    --card-front-color: #802414;
-    --card-back-color: #f44500;
-    --cor-da-borda: rgb(201, 103, 74);
-    --cor-fundo-cartao: rgb(85, 40, 51);
+    --card-front-color: #144480;
+    --card-back-color: #00f4bf;
+    --cor-da-borda:#1509f5;
+    --cor--fundo--cartao: #ffffff;
 }
 
-body{
+body {
     background-color: bisque;
     font-family: "Bai Jamjuree", sans-serif;
 }
 
-#container{
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -19,22 +19,22 @@ body{
     gap: 3rem;
 }
 
-.cartao{
+.cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao_conteudo{
+.cartao_conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
-    transition: 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
-.cartao_conteudo h3{
+.cartao_conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
@@ -43,48 +43,46 @@ body{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
 }
 
-.cartao_conteudo p{
+.cartao_conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
     font-size: 3vw;
 }
 
-.cartao_conteudo_pergunta p{
+.cartao_conteudo_pergunta p {
     color: var(--text-color);
     font-weight: 500;
 }
 
-.cartao_conteudo_resposta p{
+.cartao_conteudo_resposta p {
     color: var(--card-back-color);
     font-weight: 700;
 }
 
-
-.cartao.active .cartao_conteudo{
+.cartao.active .cartao_conteudo {
     transform: rotateY(180deg);
 }
 
 .cartao_conteudo_pergunta,
-.cartao_conteudo_resposta{
+.cartao_conteudo_resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-
 }
 
-.cartao_conteudo_resposta{
+.cartao_conteudo_resposta {
     transform: rotateY(180deg);
-    background-color: var(--cor-fundo-cartao);
+    background-color: var(--cor--fundo--cartao);
     border: 4px solid var(--cor-da-borda);
 }
 
-
-footer{
+footer {
     background-color: black;
     color: white;
     bottom: 0;
@@ -93,8 +91,8 @@ footer{
     height: 2rem;
 }
 
-footer p{
+footer p {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
 }
