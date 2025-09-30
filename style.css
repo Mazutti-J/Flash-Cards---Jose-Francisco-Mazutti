@@ -1,9 +1,9 @@
 :root {
-    --text-color: #dbe4ef;
-    --card-front-color: #144480;
-    --card-back-color: #00f4bf;
-    --cor-da-borda:#1509f5;
-    --cor--fundo--cartao: #ffffff;
+    --text-color: #efe5db;
+    --card-front-color: #801438;
+    --card-back-color: #f43100;
+    --cor-da-borda:#f55409;
+    --cor--fundo--cartao: #cfbdb6;
 }
 
 body {
@@ -50,7 +50,7 @@ body {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .cartao_conteudo_pergunta p {
