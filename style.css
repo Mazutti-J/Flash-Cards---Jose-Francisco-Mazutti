@@ -46,14 +46,14 @@ body {
     backface-visibility: hidden;
 }
 
-.cartao_conteudo_resposta p {
+.cartao_conteudo_pergunta p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
     font-size: 1vw;
 }
 
-.cartao_conteudo_pergunta p {
+.cartao_conteudo_resposta p {
     margin-top: 1rem;
     padding: 1rem;
     margin-top: 2rem;
