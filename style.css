@@ -70,6 +70,10 @@ body {
     font-weight: 700;
 }
 
+.cartao_conteudo_resposta img {
+    border: 4px solid var(--cor-da-borda);
+}
+
 .cartao.active .cartao_conteudo {
     transform: rotateY(180deg);
 }
