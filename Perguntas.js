@@ -24,7 +24,7 @@ criaCartao(
     'Geografia', 
     'Qual é o maior oceano do mundo?', 
     'O maior oceano do mundo é o Oceano Pacífico.',
-    'https://www.infoescola.com/wp-content/uploads/2007/09/oceano-atlantico-1000x986.jpg'
+    'https://www.infoescola.com/wp-content/uploads/2007/09/oceano-pacifico.jpg'
 )
 //5
 criaCartao(
