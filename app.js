@@ -10,8 +10,8 @@ function criaCartao(categoria, pergunta, resposta, imagemP) {
     <p>${pergunta}</p>
     </div>
     <div class="cartao_conteudo_resposta">
-    <p>${resposta}</p>
-    <img width="200" height="100" style="position:relative" src="${imagemP}" alt="">
+    <p>${resposta}
+    <img width="200" height="100" style="position:relative" src="${imagemP}" alt=""></p>
     </div>
     </div>`
 
