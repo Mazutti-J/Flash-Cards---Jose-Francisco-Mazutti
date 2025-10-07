@@ -107,3 +107,19 @@ footer p {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+@media (max-width: 560px){
+    body {
+        background-color: rgb(68, 11, 35);
+    }
+    .cartao{
+        flex: 1 0 calc(100% - 1rem);
+    }
+    .cartao_conteudo h3{
+        font-size: 3vw;
+    }
+    .cartao_conteudo p{
+        font-size: 3.0vw;
+    }
+    
+}
